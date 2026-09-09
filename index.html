@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Orquestra</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.1.0/css/all.min.css"
+        integrity="sha512-59mflmEHdfG3+iNat6Jg0HZPgYcAhZ7q0VO+q50sfkQDMBpoaSJfjJU2HuH5aBeMZyTwfKB54G8hratLP3Jsow=="
+        crossorigin="anonymous" referrerpolicy="no-referrer">
+</head>
+
+<body>
+    <header>
+        <h1>ORQUESTRA</h1>
+        <i class="fa-regular fa-bell"></i>
+    </header>
+    <main>
+        <section class="title">
+            <h2>Chamadas abertas</h2>
+            <p>Em espera</p>
+            <p>Ordenar por: Tempo p/Estourar SLA <i class="fa-solid fa-sliders"></i></p>
+        </section>
+        <section class="alerts">
+            <div class="card">
+                <header class="top-card">
+                    <article class="critical">
+                        <span class="nivel"><i class="fa-solid fa-circle-exclamation"></i> Crítica</span>
+
+                    </article>
+                    <p>#CH-0008123</p>
+                </header>
+                <main class="main-card">
+                    <h4>Hospital São Paulo - Elevador Social (E01)</h4>
+                    <p>Faltam 12 min para SLA</p>
+                    <p>Falta de Nivelamento</p>
+                    <h4>00:12</h4>
+                </main>
+                <footer class="foo-cri">
+                    <h4>Passageiro Preso</h4>
+                </footer>
+            </div>
+            <div class="card">
+                <header class="top-card">
+                    <article class="high">
+                        <span class="nivel">
+                            <i class="fa-solid fa-triangle-exclamation"></i> Alta
+                        </span>
+                    </article>
+                    <p>#CH-0008127</p>
+                </header>
+                <main class="main-card">
+                    <h4>Hospital São Paulo - Elevador Maca(E02)</h4>
+                    <p>Faltam 25 min para SLA</p>
+                </main>
+                <footer class="foo-card">
+                    <p>Porta não Fecha</p>
+                    <h4>00:25</h4>
+                </footer>
+            </div>
+            <div class="card">
+                <header class="top-card">
+                    <article class="high">
+                        <span class="nivel">
+                            <i class="fa-solid fa-triangle-exclamation"></i> Alta
+                        </span>
+                    </article>
+                    <p>#CH-0008133</p>
+                </header>
+                <main class="main-card">
+                    <h4>Shopping Ibitapuera - Elevador Panorâmico(E03)</h4>
+                    <p>Faltam 85 min para SLA</p>
+                </main>
+                <footer class="foo-card">
+                    <p>Cabine com ruído excessivo</p>
+                    <h4>01:05</h4>
+                </footer>
+            </div>
+            <div class="card">
+                <header class="top-card">
+                    <article class="high">
+                        <span class="nivel">
+                            <i class="fa-solid fa-triangle-exclamation"></i> Alta
+                        </span>
+                    </article>
+                    <p>#CH-0008131</p>
+                </header>
+                <main class="main-card">
+                    <h4>Shopping Ibitapuera - Elevador de Carga(E04)</h4>
+                    <p>Faltam 75 min para SLA</p>
+                </main>
+                <footer class="foo-card">
+                    <p>Velocidade Irregular</p>
+                    <h4>01:15</h4>
+                </footer>
+            </div>
+            <div class="card">
+                <header class="top-card">
+                    <article class="medio">
+                        <span class="nivel"><i class="fa-solid fa-triangle-exclamation"></i> Média</span>
+                    </article>
+                    <p>#CH-0008125</p>
+                </header>
+                <main class="main-card">
+                    <h4>Building Complex - Elevador de Serviço(E05)</h4>
+                    <p>Faltam 3h10 para SLA</p>
+                </main>
+                <footer class="foo-card">
+                    <p>Falha no Painel</p>
+                    <h4>03:15</h4>
+                </footer>
+            </div>
+            <div class="card">
+                <header class="top-card">
+                    <article class="medio">
+                        <span class="nivel"><i class="fa-solid fa-triangle-exclamation"></i> Média</span>
+                    </article>
+                    <p>#CH-0008145</p>
+                </header>
+                <main class="main-card">
+                    <h4>Condomínio Residencial Aurora - Elevador Social(E06)</h4>
+                    <p>Faltam 4h45 para SLA</p>
+                </main>
+                <footer class="foo-card">
+                    <p>Botão com defeito</p>
+                    <h4>04:10</h4>
+                </footer>
+            </div>
+            <div class="card">
+                <header class="top-card">
+                    <article class="medio">
+                        <span class="nivel"><i class="fa-solid fa-triangle-exclamation"></i> Média</span>
+                    </article>
+                    <p>#CH-0008160</p>
+                </header>
+                <main class="main-card">
+                    <h4>Escola Vista Alegre - Elevador de Acessibilidade(E07)</h4>
+                    <p>Faltam 4h40 para SLA</p>
+                </main>
+                <footer class="foo-card">
+                    <p>Sensor da porta com falha emporádica</p>
+                    <h4>04:40</h4>
+                </footer>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <nav>
+            <ul>
+                <i class="fa-solid fa-tower-broadcast"></i>
+                <li>Chamados</li>
+                <i class="fa-solid fa-triangle-exclamation"></i>
+
+                <li>Alertas</li>
+                <i class="fa-solid fa-ellipsis"></i>
+                <li>Mais</li>
+            </ul>
+        </nav>
+
+    </footer>
+</body>
+
+</html>
