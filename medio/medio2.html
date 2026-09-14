@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Orquestra</title>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.1.0/css/all.min.css"
+        integrity="sha512-59mflmEHdfG3+iNat6Jg0HZPgYcAhZ7q0VO+q50sfkQDMBpoaSJfjJU2HuH5aBeMZyTwfKB54G8hratLP3Jsow=="
+        crossorigin="anonymous" referrerpolicy="no-referrer">
+        <link rel="stylesheet" href="./medio.css">
+</head>
+<body>
+    <header>
+        <h1>ORQUESTRA</h1>
+        <i class="fa-regular fa-bell"></i>
+    </header>
+    <main>
+        <section class="title">
+            <a href="../index.html">
+                <i class="fa-solid fa-arrow-left-long"></i> Chamadas
+            </a>
+
+              <span><i class="fa-solid fa-triangle-exclamation"></i> Média</span>
+                <p>Faltam 4h10 para SLA</p>
+                <h2>#CH-0008155</h2>
+        </section>
+
+        <!--Seletores das abas(para Murilo colocar js)-->
+        <section class="selectors">
+            <div class="tabs">
+                <div class="tab active">Resumo</div>
+                <div class="tab">Linha do Tempo</div>
+                <div class="tab">Histórico</div>
+            </div>
+        </section>
+        <hr>
+        <hr>
+        <section class="cards">
+            <div class="event">
+                <header class="top-event">
+                    <h3>Evento</h3>
+                </header>
+                <main class="ma-event">
+                    <h2>Botão de chamada intermitente</h2>
+                    <p>Condomínio Residencial Aurora</p>
+                    <p>Elevador Social - E06</p>
+                </main>
+                <footer class="foo-event">
+                    <article class="local">
+                        <i class="fa-solid fa-location-dot"></i>
+                        <p>R. Augusta, 1500 · SP - Leste</p>
+                    </article>
+                </footer>
+            </div>
+            <div class="impact">
+                <header class="top-impact">
+                    <h3>Impacto Temporal</h3>
+                </header>
+                <main class="ma-impact">
+                    <article>
+                        <p>Solução previtas(SLA)</p>
+                        <h2>14:00</h2>
+                    </article>
+                    <article>
+                        <p>Tempo decorrido(TA)</p>
+                        <h2>00:05</h2>
+                    </article>
+                    <article>
+                        <p>Tempo restante(TB)</p>
+                        <h2 class="orange-impact">04:10</h2>
+                    </article>
+                </main>
+            </div>
+            <div class="suggestion">
+                <header class="su-top">
+                    <h2>Ações sugeridas pelo Orquestra</h2>
+                </header>
+                <main class="ma-su">
+                    <article class="advice">
+                        <i class="fa-regular fa-user"></i>
+                        <h3>Status do técnico</h3>
+                        <p>Diego Mendes – Disponível</p>
+                        <p>Distância: 11 km · ETA: 22 min</p>
+                    </article>
+                    <article class="advice">
+                        <i class="fa-solid fa-globe"></i>
+                        <h3>Peça mais rápida</h3>
+                        <p>Almoxarifado Leste – SP</p>
+                        <p>Av. Radial Leste, 450 · ETA: 20 min</p>
+                        <p>Botoeira de hall ×1</p>
+                    </article>
+                    <hr>
+                    <footer class="foo-su">
+                        <ul>
+                            <li>Agrupar com rota da região leste</li>
+                            <li>Confirmar botoeira em estoque local</li>
+                            <li>Informar síndico sobre janela de atendimento</li>
+                        </ul>
+                    </footer>
+                </main>
+            </div>
+        </section>
+        <!--Linha do tempo-->
+        <section class="time-line">
+            <div class="line">
+                <i class="fa-solid fa-circle"></i>
+                <h2>09:50</h2>
+                <p>Chamado aberto pelo cliente</p>
+            </div>
+            <div class="line">
+                <i class="fa-solid fa-circle"></i>
+                <h2>09:55</h2>
+                <p>Triagem concluída</p>
+            </div>
+            <div class="line">
+                <i class="fa-solid fa-circle"></i>
+                <h2>12:30</h2>
+                <p>Chegada prevista no local</p>
+            </div>
+            <div class="line">
+                <i class="fa-solid fa-circle"></i>
+                <h2>14:00</h2>
+                <p>Solução prevista(SLA)</p>
+            </div>
+        </section>
+        <!--Histórico-->
+        <section class="historical">
+            <div>
+                <header class="hea-his">
+                    <article>
+                        <i class="fa-solid fa-arrow-rotate-left"></i>
+                        <p>Recorrência</p>
+                    </article>
+                    <p>1 ocorrência semelhante nos últimos 60 dias neste equipamento</p>
+                </header>
+                <main class="ma-his">
+                    <p>15/07</p>
+                    <p>Troca de botoeira de cabine</p>
+                </main>
+            </div>
+        </section>
+        <section class="buttons">
+            <button class="call"><i class="fa-solid fa-phone"></i>Ligar para o técnico</button>
+            <button class="call"><i class="fa-brands fa-whatsapp"></i>Whatsapp</button>
+        </section>
+
+    </main>
+    <footer>
+        <nav>
+            <ul>
+             
+                <li><a href="../index.html">   <i class="fa-solid fa-tower-broadcast"></i>Chamados</a></li>
+                
+
+                <li><a href="../alerts/alerts.html"><i class="fa-solid fa-triangle-exclamation"></i>Alertas</a></li>
+               
+                <li><a href="../more/more.html"> <i class="fa-solid fa-ellipsis"></i>Mais</a></li>
+            </ul>
+        </nav>
+
+    </footer>
+</body>
+</html>
