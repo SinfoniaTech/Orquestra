@@ -1,5 +1,6 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,8 +8,9 @@
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.1.0/css/all.min.css"
         integrity="sha512-59mflmEHdfG3+iNat6Jg0HZPgYcAhZ7q0VO+q50sfkQDMBpoaSJfjJU2HuH5aBeMZyTwfKB54G8hratLP3Jsow=="
         crossorigin="anonymous" referrerpolicy="no-referrer">
-        <link rel="stylesheet" href="./medio.css">
+        <link rel="stylesheet" href="./high.css">
 </head>
+
 <body>
     <header>
         <h1>ORQUESTRA</h1>
@@ -20,9 +22,11 @@
                 <i class="fa-solid fa-arrow-left-long"></i> Chamadas
             </a>
 
-              <span><i class="fa-solid fa-triangle-exclamation"></i> Média</span>
-                <p>Faltam 3h15 para SLA</p>
-                <h2>#CH-0008125</h2>
+            <span>
+                <i class="fa-solid fa-triangle-exclamation"></i> Alta
+                </span>
+                <p>Faltam 75 min para SLA</p>
+                <h2>#CH-0008131</h2>
         </section>
 
         <!--Seletores das abas(para Murilo colocar js)-->
@@ -41,14 +45,14 @@
                     <h3>Evento</h3>
                 </header>
                 <main class="ma-event">
-                    <h2>Luz queimada</h2>
-                    <p>Building Complex</p>
-                    <p>Elevador de Serviço-E05</p>
+                    <h2>Velocidade irregular</h2>
+                    <p>Shopping Ibirapuera</p>
+                    <p>Elevador de Carga - E04</p>
                 </main>
                 <footer class="foo-event">
                     <article class="local">
                         <i class="fa-solid fa-location-dot"></i>
-                        <p>R. Voluntários da Pátria, 900.SP-Norte</p>
+                        <p>Av. Ibirapuera, 3103 · SP - Sul</p>
                     </article>
                 </footer>
             </div>
@@ -59,15 +63,15 @@
                 <main class="ma-impact">
                     <article>
                         <p>Solução previtas(SLA)</p>
-                        <h2>13:30</h2>
+                        <h2>11:00</h2>
                     </article>
                     <article>
                         <p>Tempo decorrido(TA)</p>
-                        <h2>00:08</h2>
+                        <h2>00:18</h2>
                     </article>
                     <article>
                         <p>Tempo restante(TB)</p>
-                        <h2 class="orange-impact">03:15</h2>
+                        <h2 class="orange-impact">01:15</h2>
                     </article>
                 </main>
             </div>
@@ -79,22 +83,22 @@
                     <article class="advice">
                         <i class="fa-regular fa-user"></i>
                         <h3>Status do técnico</h3>
-                        <p>Bruno Alves - Disponível</p>
-                        <p>Distância: 7km-ETA:20min</p>
+                        <p>Carlos Lima – Disponível</p>
+                        <p>Distância: 14 km · ETA: 28 min</p>
                     </article>
                     <article class="advice">
                         <i class="fa-solid fa-globe"></i>
                         <h3>Peça mais rápida</h3>
-                        <p>Almoxarifado Centro - SP</p>
-                        <p>R.das Indútrias, 120-ETA: 15min</p>
-                        <p>Luminária de cabine+1</p>
+                        <p>CD Regional - SP</p>
+                        <p>Av. Martistrias, 3000 · ETA: 50 min</p>
+                        <p>Inversor de frequência ×12</p>
                     </article>
                     <hr>
                     <footer class="foo-su">
                         <ul>
-                            <li>Agrupar atendimento por região</li>
-                            <li>Confirmar item em almoxarifado local</li>
-                            <li>Manter prioridade padrão</li>
+                            <li>  Despachar técnico disponível</li>
+                            <li>Confirmar leitura de IoT do inversor</li>
+                            <li>Registrar impacto operacional</li>
                         </ul>
                     </footer>
                 </main>
@@ -104,22 +108,22 @@
         <section class="time-line">
             <div class="line">
                 <i class="fa-solid fa-circle"></i>
-                <h2>09:40</h2>
-                <p>Chamado aberto pelo cliente</p>
+                <h2>09:30</h2>
+                <p>Chamado aberto por IOT</p>
             </div>
             <div class="line">
                 <i class="fa-solid fa-circle"></i>
-                <h2>09:45</h2>
-                <p>Aceito pela técnica Ana Prado</p>
+                <h2>09:35</h2>
+                <p>Triagem comcluída</p>
             </div>
             <div class="line">
                 <i class="fa-solid fa-circle"></i>
-                <h2>12:00</h2>
+                <h2>10:10</h2>
                 <p>Chegada prevista no local</p>
             </div>
             <div class="line">
                 <i class="fa-solid fa-circle"></i>
-                <h2>13:30</h2>
+                <h2>11:00</h2>
                 <p>Solução prevista(SLA)</p>
             </div>
         </section>
@@ -131,11 +135,14 @@
                         <i class="fa-solid fa-arrow-rotate-left"></i>
                         <p>Recorrência</p>
                     </article>
-                    <p>Sem ocorrências relevantes nos últimos 30 dias</p>
+                    <p>2 ocorrência semelhante nos últimos 90 dias neste equipamento</p>
                 </header>
                 <main class="ma-his">
-                    <p>30/07</p>
-                    <p>Substituição de iluminação de cabine</p>
+                    <p>12/08</p>
+                    <p>Oscilação de velocidade – ajuste de parâmetro</p>
+                    <hr>
+                    <p>28/07</p>
+                    <p>Troca de encoder</p>
                 </main>
             </div>
         </section>
@@ -160,4 +167,5 @@
 
     </footer>
 </body>
+
 </html>
