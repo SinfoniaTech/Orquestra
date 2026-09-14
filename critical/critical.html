@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Orquestra</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.1.0/css/all.min.css"
+        integrity="sha512-59mflmEHdfG3+iNat6Jg0HZPgYcAhZ7q0VO+q50sfkQDMBpoaSJfjJU2HuH5aBeMZyTwfKB54G8hratLP3Jsow=="
+        crossorigin="anonymous" referrerpolicy="no-referrer">
+    <link rel="stylesheet" href="./critical.css">
+</head>
+
+<body>
+    <header>
+        <h1>ORQUESTRA</h1>
+        <i class="fa-regular fa-bell"></i>
+    </header>
+    <main>
+        <section class="title">
+            <i class="fa-solid fa-arrow-left-long">
+                <a href="../index.html">Chamadas</a>
+            </i>
+
+            <span class="nivel"><i class="fa-solid fa-circle-exclamation"></i> Crítica</span>
+            <p>Faltam 12 min para SLA</p>
+            <h2>#CH-0008123</h2>
+        </section>
+
+        <!--Seletores das abas(para Murilo colocar js)-->
+        <section class="selectors">
+            <div class="tabs">
+                <div class="tab active">Resumo</div>
+                <div class="tab">Linha do Tempo</div>
+                <div class="tab">Histórico</div>
+            </div>
+        </section>
+        <hr>
+        <section class="cards">
+            <div class="event">
+                <header class="top-event">
+                    <h3>Evento</h3>
+                </header>
+                <main class="ma-event">
+                    <h2>Falha de Nivelamento</h2>
+                    <p>Hospital São Paulo</p>
+                    <p>Elevador SOcial - E01</p>
+                    <article class="local">
+                        <i class="fa-solid fa-location-dot"></i>
+                        <p>R. das Indústrias, 120-SP-Centro</p>
+                    </article>
+                </main>
+                <footer class="foo-event">
+                    <span>Passageiro preso</span>
+                </footer>
+            </div>
+            <div class="impact">
+                <header class="top-impact">
+                    <h3>Impacto Temporal</h3>
+                </header>
+                <main class="ma-impact">
+                    <article>
+                        <p>Solução previtas(SLA)</p>
+                        <h2>09:00</h2>
+                    </article>
+                    <article>
+                        <p>Tempo decorrido(TA)</p>
+                        <h2>00:44</h2>
+                    </article>
+                    <article>
+                        <p>Tempo restante(TB)</p>
+                        <h2 class="red-impact">00:12</h2>
+                    </article>
+                </main>
+            </div>
+            <div class="suggestion">
+                <header class="su-top">
+                    <h2>Ações sugeridas pelo Orquestra</h2>
+                </header>
+                <main class="ma-su">
+                    <article class="advice">
+                        <i class="fa-regular fa-user"></i>
+                        <h3>Status do técnico</h3>
+                        <p>João da Silva - A caminho</p>
+                        <p>Distância: 12km-ETA:18min</p>
+                    </article>
+                     <article class="advice">
+                     <i class="fa-solid fa-globe"></i>
+                        <h3>Peça mais próxima</h3>
+                        <p>CD Regional - SP</p>
+                        <p>Av.Martistrias, 3000-ETA:40min</p>
+                        <p>Sensor de Nível(SNS-200)x1-Placa Interface</p>
+                    </article>
+                    <hr>
+                    <footer class="foo-su">
+                        <ul>
+                            <li>Verificar status do técnico</li>
+                            <li>Confirmar disponibilidade de peça</li>
+                            <li>Reforçar prioridade do atendimento</li>
+                        </ul>
+                    </footer>
+                </main>
+            </div>
+        </section>
+         <!--Linha do tempo-->
+        <section class="time-line">
+            <div class="line">
+               <i class="fa-solid fa-circle"></i> 
+               <h2>08:15</h2>
+               <p>Chamado aberto pelo cliente</p>
+            </div>
+             <div class="line">
+               <i class="fa-solid fa-circle"></i> 
+               <h2>08:16</h2>
+               <p>Aceito pelo técnico João da Silva</p>
+            </div>
+             <div class="line">
+               <i class="fa-solid fa-circle"></i> 
+               <h2>08:24</h2>
+               <p>Técino em deslocamento</p>
+            </div>
+              <div class="line">
+               <i class="fa-solid fa-circle"></i> 
+               <h2>08:32</h2>
+               <p>Chegada prevista no local</p>
+            </div>
+              <div class="line">
+               <i class="fa-solid fa-circle"></i> 
+               <h2>09:00</h2>
+               <p>Solução prevista(SLA)</p>
+            </div>
+        </section>
+        <!--Histórico-->
+        <section class="historical">
+            <div>
+                <header class="hea-his">
+                    <article>
+                    <i class="fa-solid fa-arrow-rotate-left"></i>
+                    <p>Recorrência</p>
+                    </article>
+                    <p>3 ocorrências semelhantes nos últimos 30 dias neste equipamento</p>
+                </header>
+                <main class="ma-his">
+                    <p>22/08</p>
+                    <p>Falha de nivelamento - ajuste de sensor</p>
+                    <hr>
+                    <p>09/08</p>
+                    <p>Porta travando no 4° pavimento</p>
+                    <hr>
+                    <p>01/08</p>
+                    <p>Manutenção preventiva concluída</p>
+                </main>
+            </div>
+        </section>
+        <section class="buttons">
+            <button class="call"><i class="fa-solid fa-phone"></i>Ligar para o técnico</button>
+              <button class="call"><i class="fa-brands fa-whatsapp"></i>Whatsapp</button>
+        </section>
+       
+    </main>
+     <footer>
+        <nav>
+            <ul>
+                <i class="fa-solid fa-tower-broadcast"></i>
+                <li><a href="../index.html">Chamados</a></li>
+                <i class="fa-solid fa-triangle-exclamation"></i>
+
+                <li><a href="../alerts/alerts.html">Alertas</a></li>
+                <i class="fa-solid fa-ellipsis"></i>
+                <li><a href="../more/more.html">Mais</a></li>
+            </ul>
+        </nav>
+
+    </footer>
+</body>
+
+</html>
